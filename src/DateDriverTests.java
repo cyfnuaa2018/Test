@@ -31,7 +31,7 @@ class DateDriverTests {
 		dd.setyear(2000);
 		assert(dd.IsLeapYear());
 		dd.setyear(1900);
-		assert(!dd.IsLeapYear());
+		assert(dd.IsLeapYear());
 	}
 	@Test
 	void drivertest3() {		//Driver C

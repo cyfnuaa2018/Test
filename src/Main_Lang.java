@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main_Lang {
 
-	public static void main(String[] args) {
+/*	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Please input the year:\n");
 		Date dd = new Date();
@@ -19,5 +19,5 @@ public class Main_Lang {
 			else
 				dd.getfalse();
 		}
-	}
+	}*/
 }

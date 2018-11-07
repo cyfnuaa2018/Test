@@ -38,10 +38,20 @@
         <pathelement location="../../commons/commons-text-1.6-bin/commons-text-1.6/commons-text-1.6-test-sources.jar"/>
         <path refid="JUnit 5.libraryclasspath"/>
     </path>
+    <path id="run.DateTests (2).classpath">
+        <pathelement location="../.metadata/.plugins/org.eclipse.core.resources/.projects/TheTextofBilly/org.codecover.eclipse/src"/>
+        <path refid="TheTextofBilly.classpath"/>
+    </path>
+    <path id="run.Main_Lang.classpath">
+        <pathelement location="../.metadata/.plugins/org.eclipse.core.resources/.projects/TheTextofBilly/org.codecover.eclipse/src"/>
+        <path refid="TheTextofBilly.classpath"/>
+    </path>
     <target name="init">
         <mkdir dir="bin"/>
         <copy includeemptydirs="false" todir="bin">
             <fileset dir="src">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.xtend"/>
                 <exclude name="**/*.java"/>
             </fileset>
         </copy>
@@ -118,6 +128,11 @@
             <classpath refid="TheTextofBilly.classpath"/>
         </junit>
     </target>
+    <target name="DateTests (2)">
+        <java classname="DateTests" failonerror="true" fork="yes">
+            <classpath refid="run.DateTests (2).classpath"/>
+        </java>
+    </target>
     <target name="DateTests">
         <mkdir dir="${junit.output.dir}"/>
         <junit fork="yes" printsummary="withOutAndErr">
@@ -174,7 +189,7 @@
     </target>
     <target name="Main_Lang">
         <java classname="Main_Lang" failonerror="true" fork="yes">
-            <classpath refid="TheTextofBilly.classpath"/>
+            <classpath refid="run.Main_Lang.classpath"/>
         </java>
     </target>
     <target name="StubTests">

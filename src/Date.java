@@ -111,7 +111,7 @@ public class Date {
 		Integer [] special = new Integer [] {2};   
 		List<Integer> list = Arrays.asList(big);
 		if(list.contains(this.month)) {
-			if(this.date >=0 && this.date <= 31)
+			if(this.date >=1 && this.date <= 31)
 				return true;
 			else
 				return false;
