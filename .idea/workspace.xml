@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25fa9422-7ddd-40c2-a2d0-ea89e48a0e83" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/bin/" />
+    <list default="true" id="b7bdf329-7d88-426e-b488-ba3f93102530" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,20 +11,48 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TheTextofBilly$DateDriverTests.ic" NAME="DateDriverTests Coverage Results" MODIFIED="1541508279786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TheTextofBilly$DateTests.ic" NAME="DateTests Coverage Results" MODIFIED="1541508822680" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/TheTextofBilly$All_in_TheTextofBilly.ic" NAME="All in TheTextofBilly Coverage Results" MODIFIED="1541512860153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-  </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Date.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Date.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/DateDriverTests.java" />
-        <option value="$PROJECT_DIR$/src/Date.java" />
-        <option value="$PROJECT_DIR$/src/DateTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main_Lang.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Date.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DateTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/DateDriverTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/StubTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -36,7 +65,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -47,39 +76,45 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="TheTextofBilly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheTextofBilly" type="462c0819:PsiDirectoryNode" />
+              <item name="billy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="billy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="TheTextofBilly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheTextofBilly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="billy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="G:/operating system/TheTextofBilly/junit/org.opentest4j_1.0.0.v20170910-2246.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -93,12 +128,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in TheTextofBilly">
+  <component name="RunManager" selected="JUnit.StubTest">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="All in TheTextofBilly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheTextofBilly" />
+    <configuration name="All in billy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="billy" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
@@ -114,12 +149,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DateDriverTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheTextofBilly" />
+    <configuration name="DateDriverTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="billy" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateDriverTests" />
+      <option name="MAIN_CLASS_NAME" value="DateDriverTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -131,12 +166,12 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="DateTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TheTextofBilly" />
+    <configuration name="StubTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="billy" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="DateTests" />
+      <option name="MAIN_CLASS_NAME" value="StubTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -187,15 +222,15 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in TheTextofBilly" />
-      <item itemvalue="JUnit.DateDriverTests" />
-      <item itemvalue="JUnit.DateTests" />
+      <item itemvalue="JUnit.All in billy" />
+      <item itemvalue="JUnit.DateDriverTest" />
+      <item itemvalue="JUnit.StubTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in TheTextofBilly" />
-        <item itemvalue="JUnit.DateTests" />
-        <item itemvalue="JUnit.DateDriverTests" />
+        <item itemvalue="JUnit.StubTest" />
+        <item itemvalue="JUnit.DateDriverTest" />
+        <item itemvalue="JUnit.All in billy" />
       </list>
     </recent_temporary>
   </component>
@@ -204,64 +239,45 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="25fa9422-7ddd-40c2-a2d0-ea89e48a0e83" name="Default" comment="" />
-      <created>1541507270132</created>
+      <changelist id="b7bdf329-7d88-426e-b488-ba3f93102530" name="Default" comment="" />
+      <created>1541590781251</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1541507270132</updated>
-      <workItem from="1541507293835" duration="5763000" />
-      <workItem from="1541583605975" duration="550000" />
+      <updated>1541590781251</updated>
+      <workItem from="1541590792167" duration="540000" />
+      <workItem from="1541592393690" duration="3852000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_TheTextofBilly - 2018.11.06 at 20h 47m 50s.xml">
-      <configuration name="All in TheTextofBilly" configurationId="JUnit" />
+    <history-entry file="All_in_billy - 2018.11.07 at 20h 22m 58s.xml">
+      <configuration name="All in billy" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateTests - 2018.11.06 at 20h 53m 22s.xml">
-      <configuration name="DateTests" configurationId="JUnit" />
+    <history-entry file="DateDriverTest - 2018.11.07 at 20h 26m 14s.xml">
+      <configuration name="DateDriverTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="DateTests - 2018.11.06 at 20h 53m 45s.xml">
-      <configuration name="DateTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_TheTextofBilly - 2018.11.06 at 21h 03m 28s.xml">
-      <configuration name="All in TheTextofBilly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_TheTextofBilly - 2018.11.06 at 21h 40m 21s.xml">
-      <configuration name="All in TheTextofBilly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_TheTextofBilly - 2018.11.06 at 21h 45m 10s.xml">
-      <configuration name="All in TheTextofBilly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_TheTextofBilly - 2018.11.06 at 21h 51m 19s.xml">
-      <configuration name="All in TheTextofBilly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_TheTextofBilly - 2018.11.06 at 21h 57m 12s.xml">
-      <configuration name="All in TheTextofBilly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_TheTextofBilly - 2018.11.06 at 21h 59m 28s.xml">
-      <configuration name="All in TheTextofBilly" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_TheTextofBilly - 2018.11.06 at 22h 01m 04s.xml">
-      <configuration name="All in TheTextofBilly" configurationId="JUnit" />
+    <history-entry file="StubTest - 2018.11.07 at 20h 27m 44s.xml">
+      <configuration name="StubTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6313000" />
+    <option name="totallyTimeSpent" value="4392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="742" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.32911393" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.33386075" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49926794" weight="0.3306962" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32911393" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32911393" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -274,13 +290,11 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="Coverage" order="3" side_tool="true" visible="true" weight="0.329429" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.49853587" weight="0.32911393" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,61 +304,74 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Date.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main_Lang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2356">
-          <caret line="124" column="9" lean-forward="true" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+        <state relative-caret-position="76">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DateTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1539">
-          <caret line="81" column="23" lean-forward="true" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
+        <state relative-caret-position="159">
+          <caret line="125" column="23" lean-forward="true" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateDriverTests.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/DateDriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="836">
+          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/StubTests.java">
+    <entry file="file://$PROJECT_DIR$/billy.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/StubTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197">
-          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="12" />
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main_Lang.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main_Lang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Date.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DateTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="109" column="23" selection-start-line="109" selection-start-column="23" selection-end-line="109" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="124" column="9" selection-start-line="124" selection-start-column="9" selection-end-line="124" selection-end-column="9" />
+          <caret line="71" column="18" selection-start-line="71" selection-start-column="18" selection-end-line="71" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -400,7 +427,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>TheTextofBilly</last-edited>
+          <last-edited>billy</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -412,6 +439,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
