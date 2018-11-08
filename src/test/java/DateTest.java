@@ -46,20 +46,24 @@ class DateTest {
     void test2() { // test the IsLeapYear
         Date pp = new Date();
         pp.setyear(2018);
-        if(pp.IsLeapYear())
-            assert(false);
+  //      if(pp.IsLeapYear())
+  //          assert(false);
+        assert(!pp.IsLeapYear());
 
         pp.setyear(1900);
-        if(!pp.IsLeapYear()) // wrong test
-            assert(false);
+    //    if(!pp.IsLeapYear()) // wrong test
+    //        assert(false);
+        assert(!pp.IsLeapYear());
 
         pp.setyear(2012);
-        if(!pp.IsLeapYear())
-            assert(false);
+     //   if(!pp.IsLeapYear())
+     //       assert(false);
+        assert(pp.IsLeapYear());
 
         pp.setyear(2000);
-        if(!pp.IsLeapYear())
-            assert(false);
+   //     if(!pp.IsLeapYear())
+   //         assert(false);
+        assert(pp.IsLeapYear());
     }
 
     @org.junit.jupiter.api.Test
