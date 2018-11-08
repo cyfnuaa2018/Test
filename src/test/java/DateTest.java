@@ -53,7 +53,7 @@ class DateTest {
         pp.setyear(1900);
     //    if(!pp.IsLeapYear()) // wrong test
     //        assert(false);
-        assert(!pp.IsLeapYear());
+        assert(pp.IsLeapYear());
 
         pp.setyear(2012);
      //   if(!pp.IsLeapYear())
